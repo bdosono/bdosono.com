@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/bdosono
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.bdosono.com
+  * I am bdosono (https://keybase.io/bdosono) on keybase.
+  * I have a public key with fingerprint FCCC 6DB9 382D E872 1D8C  924C B3BA F9EC D559 E5D3
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01013aa7f3cffdd71db61e6a6c204336e6b2b098345bffa6fe6fc2299c2ec6f738900a",
+            "fingerprint": "fccc6db9382de8721d8c924cb3baf9ecd559e5d3",
+            "host": "keybase.io",
+            "key_id": "b3baf9ecd559e5d3",
+            "kid": "01013aa7f3cffdd71db61e6a6c204336e6b2b098345bffa6fe6fc2299c2ec6f738900a",
+            "uid": "ece50ef43643c8a2c1c15f5d10aac119",
+            "username": "bdosono"
+        },
+        "service": {
+            "hostname": "www.bdosono.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1466957563,
+    "expire_in": 157680000,
+    "prev": "8c7c7a663eecad33b039b4d05ee92d604c67452e5480f3c36ce47b811712063a",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMIeAnicrVJbbAxRGN51t5Q+ECoiMSVNtDZn5sycmdkXlVQjEcRTI8E6t9mdlJk1
+M7vbhgqiLlERgkibCCmNJiIuD24haok2Fa2Hioi4NKKIVeJFiMaZpt48Oi8n5z/f
+9/3f/+V/UDI+EovGk9Uvew+k49HerlPZSJ078mu7RFzWKCW2S/V89OJbGPeDZL3N
+pIQEZCBDjHULUstiTJcZQTJHGFEFqBAijohCgGlAVSOWhZHFkUUVxTSpwimydGiY
+AGCpSrJsJ8W9jGc7gZC1KKWIERMaCuOGrsjMoKaiUgIJtkxOmaaZXGNQENOuHzKE
+OYJ9HrddUROP5Ki9f+D/s+/sqBynXAPcUiFSITWwQmUqa5bGZIAxlWUzBPrcc/BW
+Hrpiru86rtRUJYlizqY8zDUcZAyQz+fjY6A4dbcKdsZzA5e6W8RnOggyiZAbNGZG
+wZwkx2SSxHaYCFIQctzzbdeRErJA0sAOdWUVIVPTNQSrJN6QsT2etEOEpiMDiBO2
+4TkhaVCd6hghyDnFDEICoElUBjTOTYUhoFKkq5rCNdUAIkGIKFd1YsiyLisAwTAX
+n28TEyaQsIlTQtK3Uw4Osh6Xmu7f2zAhEo1FJk0cFy5YJDa19O/aRRZNHtE3n+tY
+2U1Px8GVRHbeqsuV8x/0tL7e+HV1+0el/9zA0Ufvf9ysiT9++QEMP5dqF8wa2Edi
+S8obPDP/s4X1FCvnnnxxuVmecuGJ2THjks6Kn0qnHelv8Jz9zzu/DXZcrVD3bDp/
+9vZwsq3/+8HPw9GSABw+M+OEVFZzMb9+b2CVt8wZ7MyuWFCotn1jqK6yrvvIOvxm
+4bOy9rtzW3vauu49LFvK5935WPN0LUpeq/1yqLix68aH2dI7s/EtvljYXVvRMm7F
+70/NjyIta6xXxeUjentuaGr98c4N66IT+3aknGK6FPXdWn22saKw1/ke7CJN15ft
+Or6Y7DymFtqz02f+AXnRRa4=
+=WL/c
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bdosono
+
+==================================================================
