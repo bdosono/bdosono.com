@@ -1,2 +1,3 @@
-# Welcome to Bryan Dosono's GitHub Homepage!
-Personal GitHub Page
+# Welcome to Bryan Dosono's Website!
+
+Link: http://www.bdosono.com/
