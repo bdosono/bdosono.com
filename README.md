@@ -24,7 +24,8 @@
 + **Overview**: This website undergone multiple iterations since I've started my graduate program. See the entire visual progression on my [Behance](https://www.behance.net/gallery/38857453/Personal-Website) profile or the [Internet Archive](https://web.archive.org/web/*/http://www.bdosono.com/). Below, I will walk through the different kinds of immensely helpful auditing tools I used to create this site so that other people (particularly under/graduate students) can go the extra mile in optimizing their web presence.
 
 ###Environment
-[Sublime Text](https://www.sublimetext.com/)
++ **Editor**: [Sublime Text](https://www.sublimetext.com/)
++ **Package**: [Sublime SFTP](https://wbond.net/sublime_packages/sftp)
 
 ##Design 
 
