@@ -21,22 +21,28 @@ This website has advanced through multiple iterations since I've started my grad
 
 ##Design 
 ###Values
-+ **Accessible**: Having conducted research ([*Dosono, 2015*](https://www.usenix.org/system/files/conference/soups2015/soups15-paper-dosono.pdf)) with visually-impaired computer users, I wanted to ensure that my website was accessible via screen reader. The [**Wave Accessibility Evaluation Tool**](http://wave.webaim.org/report#/http://www.bdosono.com/) helps me detect any potential problems that may arise among screenreaders.
-+ **Nimble**: The site scores a 100% performance rating on both [**Pingdom**](https://tools.pingdom.com/#!/bGotxy/http://www.bdosono.com/) and [**Google PageSpeed**](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fwww.bdosono.com%2F). I minimized assets wherever possible (using customized [**Fontello**](http://fontello.com/) font for the social media icons instead of loading small images).
-+ **Reliable**: Validating the architectural soundness of the website on [**W3C Markup Validation Service**](https://validator.w3.org/) is a must to ensure the functional integrity of the HTML code. Unecessary CSS can be removed with [**CSS Lint**](http://csslint.net/). [**WooRank**](https://www.woorank.com/) provides excellent suggestions for improving search engine optimization.
-+ **Understandable**: _Less is more._ I'm a huge fan of minimal design, which steered me away from incorporating distrating web elements: animations, patterned backgrounds, and meaningless shadows. I found the [**Accessibility Developer Tools**](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb) Google Chrome extension to identify unused CSS selectors. The clear call-to-action on the website is the download button. 
-+ **Usable**: Responsive design allows for the site content to adjust accordingly for optimal viewing among mobile, tablet, and desktop devices. I use [**Screenfly**](http://quirktools.com/screenfly/#u=http%3A//www.bdosono.com/&w=1024&h=600&s=1) to see how the website looks on screens of varying dimensions.
++ **Accessible**: Having conducted research ([*Dosono, 2015*](https://www.usenix.org/system/files/conference/soups2015/soups15-paper-dosono.pdf)) with visually-impaired computer users, I wanted to ensure that my website was accessible via screen reader. The [Wave Accessibility Evaluation Tool](http://wave.webaim.org/report#/http://www.bdosono.com/) helps me detect any potential problems that may arise among screenreaders.
++ **Nimble**: The site scores a 100% performance rating on both [Pingdom](https://tools.pingdom.com/#!/bGotxy/http://www.bdosono.com/) and [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fwww.bdosono.com%2F). I minimized assets wherever possible (using customized [Fontello](http://fontello.com/) font for the social media icons instead of loading small images).
++ **Reliable**: Validating the architectural soundness of the website on [W3C Markup Validation Service](https://validator.w3.org/) is a must to ensure the functional integrity of the HTML code. Unecessary CSS can be removed with [CSS Lint](http://csslint.net/). [WooRank](https://www.woorank.com/) provides excellent suggestions for improving search engine optimization.
++ **Understandable**: _Less is more._ I'm a huge fan of minimal design, which steered me away from incorporating distrating web elements: animations, patterned backgrounds, and meaningless shadows. I found the [Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb) Google Chrome extension to identify unused CSS selectors. The clear call-to-action on the website is the download button. 
++ **Usable**: Responsive design allows for the site content to adjust accordingly for optimal viewing among mobile, tablet, and desktop devices. I use [Screenfly](http://quirktools.com/screenfly/#u=http%3A//www.bdosono.com/&w=1024&h=600&s=1) to see how the website looks on screens of varying dimensions.
+
+###Typography
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nulla id ex dapibus posuere. Vivamus rhoncus gravida turpis a sollicitudin. Etiam ac metus in est lacinia commodo quis nec mauris. Morbi efficitur mi nec ipsum gravida, non vestibulum lacus tincidunt. Phasellus interdum quis risus eu scelerisque. Donec ut pellentesque tortor. Morbi ac blandit lacus, ullamcorper rhoncus elit.
+[Typography Handbook](http://typographyhandbook.com/)
 
 ##Data
 ### Semantics
 #### Structured Microdata
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nulla id ex dapibus posuere. Vivamus rhoncus gravida turpis a sollicitudin. Etiam ac metus in est lacinia commodo quis nec mauris. Morbi efficitur mi nec ipsum gravida, non vestibulum lacus tincidunt. Phasellus interdum quis risus eu scelerisque. Donec ut pellentesque tortor. Morbi ac blandit lacus, ullamcorper rhoncus elit.
+[Schema.org](http://schema.org/)
 
 ### Social
 #### Facebook Open Graph
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nulla id ex dapibus posuere. Vivamus rhoncus gravida turpis a sollicitudin. Etiam ac metus in est lacinia commodo quis nec mauris. Morbi efficitur mi nec ipsum gravida, non vestibulum lacus tincidunt. Phasellus interdum quis risus eu scelerisque. Donec ut pellentesque tortor. Morbi ac blandit lacus, ullamcorper rhoncus elit.
+[Facebook Open Graph](https://developers.facebook.com/docs/sharing/webmasters) markup
 
 #### Twitter Cards
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nulla id ex dapibus posuere. Vivamus rhoncus gravida turpis a sollicitudin. Etiam ac metus in est lacinia commodo quis nec mauris. Morbi efficitur mi nec ipsum gravida, non vestibulum lacus tincidunt. Phasellus interdum quis risus eu scelerisque. Donec ut pellentesque tortor. Morbi ac blandit lacus, ullamcorper rhoncus elit.
-
+[Twitter Cards](https://dev.twitter.com/cards/overview)
 
