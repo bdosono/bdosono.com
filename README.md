@@ -4,6 +4,8 @@
 1. [Overview](#overview)
 2. [Design](#design)
 3. [Data](#data)
+4. [Typography](#)
+5. [Architecture](#)
 
 ##Overview
 
@@ -31,4 +33,9 @@ Responsive design allows for the site content to adjust accordingly for optimal 
 
 ##Data
 ### Structured
-### r
+#### Microdata
+### Social
+#### Facebook Open Graph
+#### Twitter Cards
+### Searchable
+
