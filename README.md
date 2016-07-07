@@ -1,9 +1,9 @@
 # Welcome to Bryan Dosono's Website!
-*under construction*
+*under construction* (with lorem ipsum)
 
 **Overview**
 
-This website has advanced through multiple iterations since I've started my graduate program. It started off on Bootstrap and I've continually refactored the code to remove the excess bulk of the Bootstrap framework. See the entire visual progression on my [**Behance**](https://www.behance.net/gallery/38857453/Personal-Website) profile or the [**Internet Archive**](https://web.archive.org/web/*/http://www.bdosono.com/). Below, I will walk through the different kinds of immensely helpful auditing tools I used to develop this site so that other people (particularly under/graduate students) can go the extra mile in optimizing their web presence.
+This website has advanced through multiple iterations since I've started my graduate program. It started off on Bootstrap and I've continually refactored the code to remove the excess bulk of the Bootstrap framework. See the entire visual progression on my [Behance](https://www.behance.net/gallery/38857453/Personal-Website) profile or the [Internet Archive](https://web.archive.org/web/*/http://www.bdosono.com/). Below, I will walk through the different kinds of immensely helpful auditing tools I used to develop this site so that other people (particularly under/graduate students) can go the extra mile in optimizing their web presence.
 
 **Site URL**
 
@@ -15,7 +15,7 @@ This website has advanced through multiple iterations since I've started my grad
   1. [Values](#values)
   2. [Typography](#typography)
 2. [Data](#data)
-  1. [Structured](#structured)
+  1. [Semantics](#semantics)
   2. [Social](#social)
 4. [Architecture](#)
 
@@ -28,12 +28,15 @@ This website has advanced through multiple iterations since I've started my grad
 + **Usable**: Responsive design allows for the site content to adjust accordingly for optimal viewing among mobile, tablet, and desktop devices. I use [**Screenfly**](http://quirktools.com/screenfly/#u=http%3A//www.bdosono.com/&w=1024&h=600&s=1) to see how the website looks on screens of varying dimensions.
 
 ##Data
-### Structured
-#### Microdata
+### Semantics
+#### Structured Microdata
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nulla id ex dapibus posuere. Vivamus rhoncus gravida turpis a sollicitudin. Etiam ac metus in est lacinia commodo quis nec mauris. Morbi efficitur mi nec ipsum gravida, non vestibulum lacus tincidunt. Phasellus interdum quis risus eu scelerisque. Donec ut pellentesque tortor. Morbi ac blandit lacus, ullamcorper rhoncus elit.
 
 ### Social
 #### Facebook Open Graph
-#### Twitter Cards
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nulla id ex dapibus posuere. Vivamus rhoncus gravida turpis a sollicitudin. Etiam ac metus in est lacinia commodo quis nec mauris. Morbi efficitur mi nec ipsum gravida, non vestibulum lacus tincidunt. Phasellus interdum quis risus eu scelerisque. Donec ut pellentesque tortor. Morbi ac blandit lacus, ullamcorper rhoncus elit.
 
+#### Twitter Cards
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nulla id ex dapibus posuere. Vivamus rhoncus gravida turpis a sollicitudin. Etiam ac metus in est lacinia commodo quis nec mauris. Morbi efficitur mi nec ipsum gravida, non vestibulum lacus tincidunt. Phasellus interdum quis risus eu scelerisque. Donec ut pellentesque tortor. Morbi ac blandit lacus, ullamcorper rhoncus elit.
 
 
