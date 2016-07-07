@@ -1,12 +1,19 @@
 # Welcome to Bryan Dosono's Website!
 
-## Site URL
-[http://www.bdosono.com/](http://www.bdosono.com/)
+## Table of Contents
+1. [Overview](#example)
+2. [Design](#example2)
+3. [Data](#third-example)
 
 ## Overview
+
+### Site URL
+[http://www.bdosono.com/](http://www.bdosono.com/)
+
+### History
 This website has advanced through multiple iterations since I've started my graduate program. It started off on Bootstrap and I've continually refactored the code to remove the excess bulk of the Bootstrap framework. See the entire visual progression on my [**Behance**](https://www.behance.net/gallery/38857453/Personal-Website) profile or the [**Internet Archive**](https://web.archive.org/web/*/http://www.bdosono.com/). Below, I will walk through the different kinds of immensely helpful auditing tools I used to develop this site so that other people (particularly under/graduate students) can go the extra mile in optimizing their web presence.
 
-## Design Priorities
+## Design 
 ### Accessible
 Having conducted research ([*Dosono, 2015*](https://www.usenix.org/system/files/conference/soups2015/soups15-paper-dosono.pdf)) with visually-impaired computer users, I wanted to ensure that my website was accessible via screen reader. The [**Wave Accessibility Evaluation Tool**](http://wave.webaim.org/report#/http://www.bdosono.com/) helps me detect any potential problems that may arise among screenreaders.
 
@@ -21,3 +28,7 @@ _Less is more._ I'm a huge fan of minimal design, which steered me away from inc
 
 ### Usable
 Responsive design allows for the site content to adjust accordingly for optimal viewing among mobile, tablet, and desktop devices. I use [**Screenfly**](http://quirktools.com/screenfly/#u=http%3A//www.bdosono.com/&w=1024&h=600&s=1) to see how the website looks on screens of varying dimensions.
+
+## Data
+### Structured
+### r
