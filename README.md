@@ -11,12 +11,12 @@ This website undergone multiple iterations since I've started my graduate progra
 
 **Table of Contents**
 
-> 1. [Direction](#direction)
+> 1. [Development](#development)
 >  1. [Purpose](#purpose)
->  2. [Values](#values)
+>  2. [Environment](#environment)
 > 2. [Design](#design)
->  1. [Imagery](#imagery)
->  2. [Typography](#typography)
+>  1. [Values](#values)
+>  2. [Aesthetics](#aesthetics) 
 > 3. [Data](#data)
 >  1. [Semantics](#semantics)
 >  2. [Content](#content)
@@ -36,7 +36,7 @@ Metadata is data about data.
 About the actual stuff on the website.
 + **Minimal**: _Less is more._ I'm a huge fan of minimal design, which steered me away from incorporating distrating web elements: animations, patterned backgrounds, and meaningless shadows. The clear call-to-action on the website is the download button. 
 + **Intentional**: I find that powerful writing is concise writing. At its core, I wanted my website to communicate only the most important content I would want others to find within their first 10 seconds of browsing.
-+ **Personable**: I like to have fun with language! Note how the headers (Interests, Inquiries, Insights, Interactions) are alliterative—as well as the sections (Direction, Design, Data, Discovery) in this very README file. :wink:
++ **Personable**: I like to have fun with language! Note how the headers (Interests, Inquiries, Insights, Interactions) are alliterative—as well as the sections (Development, Design, Data, Discovery) in this very README file. :wink:
 
 ##Design 
 
