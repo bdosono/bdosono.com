@@ -1,14 +1,6 @@
 # Personal Website Documentation
 *under construction* (30% complete as of July 7, 2016)
 
-**URL**
-
-[http://www.bdosono.com/](http://www.bdosono.com/)
-
-**Overview**
-
-This website undergone multiple iterations since I've started my graduate program. See the entire visual progression on my [Behance](https://www.behance.net/gallery/38857453/Personal-Website) profile or the [Internet Archive](https://web.archive.org/web/*/http://www.bdosono.com/). Below, I will walk through the different kinds of immensely helpful auditing tools I used to create this site so that other people (particularly under/graduate students) can go the extra mile in optimizing their web presence.
-
 **Table of Contents**
 
 > 1. [Development](#development)
@@ -27,7 +19,9 @@ This website undergone multiple iterations since I've started my graduate progra
 ##Development
 
 ###Purpose
-To create one-stop landing page of my best work.
++ **Obective**: To create one-stop landing page of my best work.
++ **Overview**: This website undergone multiple iterations since I've started my graduate program. See the entire visual progression on my [Behance](https://www.behance.net/gallery/38857453/Personal-Website) profile or the [Internet Archive](https://web.archive.org/web/*/http://www.bdosono.com/). Below, I will walk through the different kinds of immensely helpful auditing tools I used to create this site so that other people (particularly under/graduate students) can go the extra mile in optimizing their web presence.
++ **Demo**: [http://www.bdosono.com/](http://www.bdosono.com/)
 
 ###Environment
 [Sublime Text](https://www.sublimetext.com/)
