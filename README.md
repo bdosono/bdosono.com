@@ -1,5 +1,5 @@
 # Welcome to Bryan Dosono's Website!
-__under construction__
+*under construction*
 
 ## Table of Contents
 1. [Overview](#overview)
