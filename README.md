@@ -30,7 +30,7 @@ This website undergone multiple iterations since I've started my graduate progra
 To create one-stop landing page of my best work.
 
 ###Environment
-[Sublime Text](#http://www.sublimetext.com/)
+[Sublime Text](https://www.sublimetext.com/)
 
 ##Design 
 
