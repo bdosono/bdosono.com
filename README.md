@@ -34,15 +34,13 @@ This website has advanced through multiple iterations since I've started my grad
 
 ##Data
 ### Semantics
-#### Structured Microdata
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nulla id ex dapibus posuere. Vivamus rhoncus gravida turpis a sollicitudin. Etiam ac metus in est lacinia commodo quis nec mauris. Morbi efficitur mi nec ipsum gravida, non vestibulum lacus tincidunt. Phasellus interdum quis risus eu scelerisque. Donec ut pellentesque tortor. Morbi ac blandit lacus, ullamcorper rhoncus elit.
-[Schema.org](http://schema.org/)
-
-### Social
-+ [Facebook Open Graph](https://developers.facebook.com/docs/sharing/webmasters) markup
-+ [Twitter Cards](https://dev.twitter.com/cards/overview)
+Metadata is data about data.
++ **Structured Microdata**: [Schema.org](http://schema.org/)
++ **Social Metadata**: Incorporating markup from [Facebook Open Graph](https://developers.facebook.com/docs/sharing/webmasters) and [Twitter Cards](https://dev.twitter.com/cards/overview)
++ **Tracking Data**: Google Analytics is the defacto 
 
 ### Content
+The actual stuff on the website...
 + **Minimal**: _Less is more._ I'm a huge fan of minimal design, which steered me away from incorporating distrating web elements: animations, patterned backgrounds, and meaningless shadows. The clear call-to-action on the website is the download button. 
 + **Intentional**: I find that powerful writing is concise writing. At its core, I wanted my website to communicate only the most important content I would want others to find within their first 10 seconds of browsing.
 + **Personable**: I like to have fun with language! The headers (H2) are alliterative
