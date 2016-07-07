@@ -8,7 +8,7 @@
 >  2. [Environment](#environment)
 > 2. [Design](#design)
 >  1. [Values](#values)
->  2. [Aesthetics](#aesthetics) 
+>  2. [Visuals](#visuals) 
 > 3. [Data](#data)
 >  1. [Semantics](#semantics)
 >  2. [Content](#content)
