@@ -28,10 +28,10 @@ This website has advanced through multiple iterations since I've started my grad
 + **Usable**: Responsive design allows for the site content to adjust accordingly for optimal viewing among mobile, tablet, and desktop devices. I use [Screenfly](http://quirktools.com/screenfly/#u=http%3A//www.bdosono.com/&w=1024&h=600&s=1) to see how the website looks on screens of varying dimensions.
 
 ###Typography
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nulla id ex dapibus posuere. Vivamus rhoncus gravida turpis a sollicitudin. Etiam ac metus in est lacinia commodo quis nec mauris. Morbi efficitur mi nec ipsum gravida, non vestibulum lacus tincidunt. Phasellus interdum quis risus eu scelerisque. Donec ut pellentesque tortor. Morbi ac blandit lacus, ullamcorper rhoncus elit.
 [Typography Handbook](http://typographyhandbook.com/) is a beautifully designed resource that explains best practices of how type is diplayed online. 
-+ **Law of Proximity**: 
-+ **Law of Similarity**:
+
++ **Law of Proximity**: My research interests (separated by bullet) are listed in their own section. Each H2 header is situated immediately above their section.
++ **Law of Similarity**: The social links are also grouped in their respective columns.
 + **Font Choices**: I chose to use [Stellar](http://pangrampangram.com/stellar.html) because it is one of the most condensed fonts I could find for free online—and it nominally reflects my interest in the cosmos. Stellar is a sans-serif font, which allows for legibility on the screen.
 
 ##Data
@@ -49,3 +49,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nulla id ex dapi
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nulla id ex dapibus posuere. Vivamus rhoncus gravida turpis a sollicitudin. Etiam ac metus in est lacinia commodo quis nec mauris. Morbi efficitur mi nec ipsum gravida, non vestibulum lacus tincidunt. Phasellus interdum quis risus eu scelerisque. Donec ut pellentesque tortor. Morbi ac blandit lacus, ullamcorper rhoncus elit.
 [Twitter Cards](https://dev.twitter.com/cards/overview)
 
+Minimal
+Intentional
