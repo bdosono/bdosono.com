@@ -58,7 +58,7 @@ Uncompromising principles.
 Search Engine Optimization is a billion-dollar industry. Fortunately, my name is pretty rare in the world and I'm the only "Bryan Dosono" that pops up in a search result. For others with more common names, ranking high on search results isn't always the case.  My site as of 2016 has a PageRank of 4. 
 + **Audit**: [WooRank](https://www.woorank.com/) provides excellent suggestions for improving search engine optimization.
 + **Backlinks**: [ahrefs](https://ahrefs.com/) gives a diagnosis of the "domain health" of a website based on the credibility of other sites that link to it.
-+ **PageRank**[PR Checker](http://www.prchecker.info/) is one of many tools online that can spit out the PageRank of any site.
++ **PageRank**: [PR Checker](http://www.prchecker.info/) is one of many tools online that can spit out the PageRank of any site.
 
 ###Branding
 + **Intellectual Property**: [Creative Commons](https://creativecommons.org/) 
