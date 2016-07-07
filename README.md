@@ -46,11 +46,10 @@ Uncompromising principles.
 + **Nimble**: The site scores a 100% performance rating on both [Pingdom](https://tools.pingdom.com/#!/bGotxy/http://www.bdosono.com/) and [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fwww.bdosono.com%2F). I minimized assets wherever possible (using customized [Fontello](http://fontello.com/) font for the social media icons instead of loading small images).
 + **Reliable**: Validating the architectural soundness of the website on [W3C Markup Validation Service](https://validator.w3.org/) is a must to ensure the functional integrity of the HTML code. Unecessary CSS can be removed with [CSS Lint](http://csslint.net/). Responsive design allows for the site content to adjust accordingly for optimal viewing among mobile, tablet, and desktop devices. I use [Screenfly](http://quirktools.com/screenfly/#u=http%3A//www.bdosono.com/&w=1024&h=600&s=1) to see how the website looks on screens of varying dimensions.
 
-###Typography
-[Typography Handbook](http://typographyhandbook.com/) is a beautifully designed resource that explains best practices of how type is diplayed online. 
-+ **Law of Proximity**: My research interests (separated by bullet) are listed in their own section. Each H2 header is situated immediately above their section.
-+ **Law of Similarity**: The social links are also grouped in their respective columns.
-+ **Font Choices**: I chose to use [Stellar](http://pangrampangram.com/stellar.html) because it is one of the most condensed fonts I could find for free online—and it nominally reflects my interest in the cosmos. Stellar is a sans-serif font, which allows for legibility on the screen.
+###Aesthetics
++ **Imagery**: Photo coming soon!
++ **Principles**: With respect to the *Law of Proximity*, my research interests (separated by bullet) are listed in their own section. Each H2 header is situated immediately above their section. With respect to the *Law of Similarity*, the social links are also grouped in their respective columns.
++ **Typography**: [Typography Handbook](http://typographyhandbook.com/) is a beautifully designed resource that explains best practices of how type is diplayed online. I chose to use [Stellar](http://pangrampangram.com/stellar.html) because it is one of the most condensed fonts I could find for free online—and it nominally reflects my interest in the cosmos. Stellar is a sans-serif font, which allows for legibility on the screen.
 
 ##Discovery
 
