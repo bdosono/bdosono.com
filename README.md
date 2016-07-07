@@ -1,4 +1,4 @@
-# Welcome to Bryan Dosono's Website!
+# Personal Website Documentation
 *under construction* (30% complete as of July 7, 2016)
 
 **Overview**
