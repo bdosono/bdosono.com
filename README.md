@@ -11,13 +11,13 @@ This website has advanced through multiple iterations since I've started my grad
 
 **Table of Contents**
 
-1. [Design](#design)
-  1. [Values](#values)
-  2. [Typography](#typography)
-2. [Data](#data)
-  1. [Semantics](#semantics)
-  2. [Social](#social)
-4. [Architecture](#)
+> 1. [Design](#design)
+>  1. [Values](#values)
+>  2. [Typography](#typography)
+> 2. [Data](#data)
+>  1. [Semantics](#semantics)
+>   2. [Social](#social)
+> 4. [Architecture](#)
 
 ##Design 
 ###Values
