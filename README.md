@@ -24,19 +24,13 @@ This website undergone multiple iterations since I've started my graduate progra
 >  1. [Optimization](#optimization)
 >  2. [Branding](#branding)
 
-##Data
+##Development
 
-###Semantics
-Metadata is data about data. 
-+ **Structured Microdata**: [Schema.org](http://schema.org/)
-+ **Social Metadata**: Incorporating markup from [Facebook Open Graph](https://developers.facebook.com/docs/sharing/webmasters) and [Twitter Cards](https://dev.twitter.com/cards/overview)
-+ **Tracking Data**: Google Analytics is the defacto 
+###Purpose
+To create one-stop landing page of my best work.
 
-###Content
-About the actual stuff on the website.
-+ **Minimal**: _Less is more._ I'm a huge fan of minimal design, which steered me away from incorporating distrating web elements: animations, patterned backgrounds, and meaningless shadows. The clear call-to-action on the website is the download button. 
-+ **Intentional**: I find that powerful writing is concise writing. At its core, I wanted my website to communicate only the most important content I would want others to find within their first 10 seconds of browsing.
-+ **Personable**: I like to have fun with language! Note how the headers (Interests, Inquiries, Insights, Interactions) are alliterative—as well as the sections (Development, Design, Data, Discovery) in this very README file. :wink:
+###Environment
+[Sublime Text](#https://www.sublimetext.com/)
 
 ##Design 
 
@@ -50,6 +44,20 @@ Uncompromising principles.
 + **Imagery**: Photo coming soon!
 + **Principles**: With respect to the *Law of Proximity*, my research interests (separated by bullet) are listed in their own section. Each H2 header is situated immediately above their section. With respect to the *Law of Similarity*, the social links are also grouped in their respective columns.
 + **Typography**: [Typography Handbook](http://typographyhandbook.com/) is a beautifully designed resource that explains best practices of how type is diplayed online. I chose to use [Stellar](http://pangrampangram.com/stellar.html) because it is one of the most condensed fonts I could find for free online—and it nominally reflects my interest in the cosmos. Stellar is a sans-serif font, which allows for legibility on the screen.
+
+##Data
+
+###Semantics
+Metadata is data about data. 
++ **Structured Microdata**: [Schema.org](http://schema.org/)
++ **Social Metadata**: Incorporating markup from [Facebook Open Graph](https://developers.facebook.com/docs/sharing/webmasters) and [Twitter Cards](https://dev.twitter.com/cards/overview)
++ **Tracking Data**: Google Analytics is the defacto 
+
+###Content
+About the actual stuff on the website.
++ **Minimal**: _Less is more._ I'm a huge fan of minimal design, which steered me away from incorporating distrating web elements: animations, patterned backgrounds, and meaningless shadows. The clear call-to-action on the website is the download button. 
++ **Intentional**: I find that powerful writing is concise writing. At its core, I wanted my website to communicate only the most important content I would want others to find within their first 10 seconds of browsing.
++ **Personable**: I like to have fun with language! Note how the headers (Interests, Inquiries, Insights, Interactions) are alliterative—as well as the sections (Development, Design, Data, Discovery) in this very README file. :wink:
 
 ##Discovery
 
