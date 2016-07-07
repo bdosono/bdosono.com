@@ -1,5 +1,5 @@
 # Welcome to Bryan Dosono's Website!
-*under construction*
+*under construction* (30% complete as of July 7, 2016)
 
 **Overview**
 
@@ -11,13 +11,16 @@ This website has advanced through multiple iterations since I've started my grad
 
 **Table of Contents**
 
-> 1. [Data](#data)
+> 1. [Direction](#direction)
+>  1. [Purpose](#purpose)
+>  2. [Values](#values)
+> 2. [Design](#design)
+>  1. [Imagery](#imagery)
+>  2. [Typography](#typography)
+> 3. [Data](#data)
 >  1. [Semantics](#semantics)
 >  2. [Content](#content)
-> 2. [Design](#design)
->  1. [Values](#values)
->  2. [Typography](#typography)
-> 3. [Discovery](#discovery)
+> 4. [Discovery](#discovery)
 >  1. [Optimization](#optimization)
 >  2. [Branding](#branding)
 
