@@ -43,13 +43,11 @@ Uncompromising principles.
 ##Data
 
 ###Semantics
-Metadata is data about data. 
 + **Structured Microdata**: [Schema.org](http://schema.org/)
 + **Social Metadata**: Incorporating markup from [Facebook Open Graph](https://developers.facebook.com/docs/sharing/webmasters) and [Twitter Cards](https://dev.twitter.com/cards/overview)
 + **Tracking Data**: Google Analytics is the defacto 
 
 ###Content
-About the actual stuff on the website.
 + **Minimal**: _Less is more._ I'm a huge fan of minimal design, which steered me away from incorporating distrating web elements: animations, patterned backgrounds, and meaningless shadows. The clear call-to-action on the website is the download button. 
 + **Intentional**: I find that powerful writing is concise writing. At its core, I wanted my website to communicate only the most important content I would want others to find within their first 10 seconds of browsing.
 + **Personable**: I like to have fun with language! Note how the headers (Interests, Inquiries, Insights, Interactions) are alliterative—as well as the sections (Development, Design, Data, Discovery) in this very README file. :wink:
@@ -58,12 +56,11 @@ About the actual stuff on the website.
 
 ###Optimization
 Search Engine Optimization is a billion-dollar industry. Fortunately, my name is pretty rare in the world and I'm the only "Bryan Dosono" that pops up in a search result. For others with more common names, ranking high on search results isn't always the case.  My site as of 2016 has a PageRank of 4. 
-+ [ahrefs](https://ahrefs.com/) gives a diagnosis of the "domain health" of a website based on the credibility of other sites that link to it.
-+ [PR Checker](http://www.prchecker.info/) is one of many tools online that can spit out the PageRank of any site.
-+ [WooRank](https://www.woorank.com/) provides excellent suggestions for improving search engine optimization.
++ **Audit**: [WooRank](https://www.woorank.com/) provides excellent suggestions for improving search engine optimization.
++ **Backlinks**: [ahrefs](https://ahrefs.com/) gives a diagnosis of the "domain health" of a website based on the credibility of other sites that link to it.
++ **PageRank**[PR Checker](http://www.prchecker.info/) is one of many tools online that can spit out the PageRank of any site.
 
 ###Branding
-Image is everything.
-+ [Creative Commons](https://creativecommons.org/) for understanding 
-+ [Namech_k](https://namechk.com/) is a great resource for helping you secure your online alias on as many public platforms as possible. 
-+ hex
++ **Intellectual Property**: [Creative Commons](https://creativecommons.org/) 
++ ** **: [Namech_k](https://namechk.com/) is a great resource for helping you secure your online alias on as many public platforms as possible. 
++ ** **: []()
