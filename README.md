@@ -30,6 +30,8 @@ This website has advanced through multiple iterations since I've started my grad
 ###Typography
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nulla id ex dapibus posuere. Vivamus rhoncus gravida turpis a sollicitudin. Etiam ac metus in est lacinia commodo quis nec mauris. Morbi efficitur mi nec ipsum gravida, non vestibulum lacus tincidunt. Phasellus interdum quis risus eu scelerisque. Donec ut pellentesque tortor. Morbi ac blandit lacus, ullamcorper rhoncus elit.
 [Typography Handbook](http://typographyhandbook.com/)
+Law of Proximity
+Law of Similarity
 
 ##Data
 ### Semantics
