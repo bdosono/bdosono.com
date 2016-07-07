@@ -1,9 +1,9 @@
 # Welcome to Bryan Dosono's Website!
 
 ## Table of Contents
-1. [Overview](##Overview)
-2. [Design](##Design)
-3. [Data](##Data)
+1. [Overview](#overview)
+2. [Design](#design)
+3. [Data](#data)
 
 ##Overview
 
