@@ -11,12 +11,16 @@ This website has advanced through multiple iterations since I've started my grad
 
 **Table of Contents**
 
-> 1. [Design](#design)
->  1. [Values](#values)
->  2. [Typography](#typography)
-> 2. [Data](#data)
+
+> 1. [Data](#data)
 >  1. [Semantics](#semantics)
 >  2. [Content](#content)
+> 2. [Design](#design)
+>  1. [Values](#values)
+>  2. [Typography](#typography)
+> 3. [Discovery](#discovery)
+>  1. [Search](#search)
+>  2. [PageRank](#pagerank)
 
 ##Design 
 ###Values
@@ -32,16 +36,17 @@ Uncompromising principles
 + **Font Choices**: I chose to use [Stellar](http://pangrampangram.com/stellar.html) because it is one of the most condensed fonts I could find for free online—and it nominally reflects my interest in the cosmos. Stellar is a sans-serif font, which allows for legibility on the screen.
 
 ##Data
-### Semantics
+###Semantics
 Metadata is data about data. 
 + **Structured Microdata**: [Schema.org](http://schema.org/)
 + **Social Metadata**: Incorporating markup from [Facebook Open Graph](https://developers.facebook.com/docs/sharing/webmasters) and [Twitter Cards](https://dev.twitter.com/cards/overview)
 + **Tracking Data**: Google Analytics is the defacto 
 
-### Content
+###Content
 The actual stuff on the website... 
 + **Minimal**: _Less is more._ I'm a huge fan of minimal design, which steered me away from incorporating distrating web elements: animations, patterned backgrounds, and meaningless shadows. The clear call-to-action on the website is the download button. 
 + **Intentional**: I find that powerful writing is concise writing. At its core, I wanted my website to communicate only the most important content I would want others to find within their first 10 seconds of browsing.
 + **Personable**: I like to have fun with language! Note how the headers (Interests, Inquiries, Insights, Interactions) are alliterative—as well as the table of contents in this very README file. :wink:
 
 ##Discovery
+###Search
