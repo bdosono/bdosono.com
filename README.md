@@ -1,5 +1,5 @@
 # Welcome to Bryan Dosono's Website!
-*under construction* (with lorem ipsum)
+*under construction*
 
 **Overview**
 
@@ -29,9 +29,10 @@ This website has advanced through multiple iterations since I've started my grad
 
 ###Typography
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nulla id ex dapibus posuere. Vivamus rhoncus gravida turpis a sollicitudin. Etiam ac metus in est lacinia commodo quis nec mauris. Morbi efficitur mi nec ipsum gravida, non vestibulum lacus tincidunt. Phasellus interdum quis risus eu scelerisque. Donec ut pellentesque tortor. Morbi ac blandit lacus, ullamcorper rhoncus elit.
-[Typography Handbook](http://typographyhandbook.com/)
-Law of Proximity
-Law of Similarity
+[Typography Handbook](http://typographyhandbook.com/) is a beautifully designed resource that explains best practices of how type is diplayed online. 
++ **Law of Proximity**: 
++ **Law of Similarity**:
++ **Font Choices**: I chose to use [Stellar](http://pangrampangram.com/stellar.html) because it is one of the most condensed fonts I could find for free online—and it nominally reflects my interest in the cosmos. Stellar is a sans-serif font, which allows for legibility on the screen.
 
 ##Data
 ### Semantics
