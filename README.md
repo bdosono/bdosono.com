@@ -62,5 +62,5 @@ Search Engine Optimization is a billion-dollar industry. Fortunately, my name is
 
 ###Branding
 + **Intellectual Property**: [Creative Commons](https://creativecommons.org/) 
-+ ** **: [Namech_k](https://namechk.com/) is a great resource for helping you secure your online alias on as many public platforms as possible. 
-+ ** **: []()
++ **Domain Reservation**: [Namech_k](https://namechk.com/) is a great resource for helping you secure your online alias on as many public platforms as possible. 
++ **Best Practices**: []()
