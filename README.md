@@ -2,12 +2,15 @@
 *under construction*
 
 **Overview**
+
 This website has advanced through multiple iterations since I've started my graduate program. It started off on Bootstrap and I've continually refactored the code to remove the excess bulk of the Bootstrap framework. See the entire visual progression on my [**Behance**](https://www.behance.net/gallery/38857453/Personal-Website) profile or the [**Internet Archive**](https://web.archive.org/web/*/http://www.bdosono.com/). Below, I will walk through the different kinds of immensely helpful auditing tools I used to develop this site so that other people (particularly under/graduate students) can go the extra mile in optimizing their web presence.
 
 **Site URL**
+
 [http://www.bdosono.com/](http://www.bdosono.com/)
 
 **Table of Contents**
+
 1. [Design](#design)
   1. [Values](#values)
   2. [Typography](#typography)
