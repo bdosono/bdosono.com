@@ -45,4 +45,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nulla id ex dapi
 ### Content
 **Minimal**: _Less is more._ I'm a huge fan of minimal design, which steered me away from incorporating distrating web elements: animations, patterned backgrounds, and meaningless shadows. The clear call-to-action on the website is the download button. 
 **Intentional**: I find that powerful writing is concise writing. At its core, I wanted my website to communicate only the most important content I would want others to find within their first 10 seconds of browsing.
-**Personable**: I like to have fun with language! The headers (<H2>) are alliterative
+**Personable**: I like to have fun with language! The headers (H2) are alliterative
