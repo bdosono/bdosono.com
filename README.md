@@ -19,14 +19,14 @@
 ##Development
 
 ###Purpose
-+ **Obective**: To create one-stop landing page of my best work.
++ **Obective**: To create one-stop landing page of my work.
 + **Outcome**: [http://www.bdosono.com/](http://www.bdosono.com/)
 + **Overview**: This website undergone multiple iterations since I've started my graduate program. See the entire visual progression on my [Behance](https://www.behance.net/gallery/38857453/Personal-Website) profile or the [Internet Archive](https://web.archive.org/web/*/http://www.bdosono.com/). Below, I will walk through the different kinds of immensely helpful auditing tools I used to create this site so that other people (particularly under/graduate students) can go the extra mile in optimizing their web presence.
 
 ###Environment
-+ **Editor**: [Sublime Text](https://www.sublimetext.com/)
-+ **Package**: [Sublime SFTP](https://wbond.net/sublime_packages/sftp)
-+ *Test*:
++ **Editor**: [Sublime Text](https://www.sublimetext.com/) 
++ **FTP Client**: [Sublime SFTP](https://wbond.net/sublime_packages/sftp) 
++ **Template**: [Bootstrap](http://getbootstrap.com/) is great for boilerplate code to start.
 
 ##Design 
 
