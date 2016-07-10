@@ -39,7 +39,7 @@ Uncompromising principles.
 ###Visuals
 + **Imagery**: Photo coming soon!
 + **Layout**: With respect to the *Law of Proximity*, my research interests (separated by bullet) are listed in their own section. Each H2 header is situated immediately above their section. With respect to the *Law of Similarity*, the social links are also grouped in their respective columns.
-+ **Typography**: [Typography Handbook](http://typographyhandbook.com/) is a beautifully designed resource that explains best practices of how type is diplayed online. I chose to use [Stellar](http://pangrampangram.com/stellar.html) because it is one of the most condensed fonts I could find for free online—and it nominally reflects my interest in the cosmos. Stellar is a sans-serif font, which allows for legibility on the screen.
++ **Typography**: [Typography Handbook](http://typographyhandbook.com/) is a beautifully designed resource that explains best practices of how type is diplayed online. I chose to use [Lato](http://www.latofonts.com/lato-free-fonts/) because it is an open-sourced sans-serif font, which allows for legibility on the screen.
 
 ##Data
 
