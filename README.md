@@ -1,7 +1,6 @@
 # Personal Website Documentation
 *under construction* (30% complete as of July 7, 2016)
 
-```
 **Table of Contents**
 
 > 1. [Development](#development)
@@ -16,7 +15,6 @@
 >  1. [Optimization](#optimization)
 >  2. [Branding](#branding)
 >  3. [Conversions](#conversions)
-```
 
 ##Development
 
