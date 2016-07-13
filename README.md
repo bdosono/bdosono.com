@@ -70,7 +70,7 @@ Search Engine Optimization is a billion-dollar industry. Fortunately, my name is
 ###Branding
 + **Intellectual Property**: [Creative Commons](https://creativecommons.org/) 
 + **Domain Reservation**: [Namech_k](https://namechk.com/) is a great resource for helping you secure your online alias on as many public platforms as possible. 
-+ **Best Practices**: []()
++ **Copyright**: Developed by Bryan Dosono under a Creative Commons Attribution 4.0 International License.
 
 ###Conversions
 Coming soon
