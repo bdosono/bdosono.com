@@ -73,4 +73,5 @@ Search Engine Optimization is a billion-dollar industry. Fortunately, my name is
 + **Copyright**: Developed by Bryan Dosono under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 ###Conversions
-+ [Moz](https://moz.com/learn/seo/conversion-rate-optimization) shares best practices on calls to action
++ [Moz](https://moz.com/learn/seo/conversion-rate-optimization) explains conversion rate optimization and shares best practices on crafting calls to action
++ [Kissmetrics](https://blog.kissmetrics.com/what-converting-websites-do/) explains the different approaches taken by websites with high conversation rates.
