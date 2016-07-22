@@ -68,7 +68,7 @@ Search Engine Optimization is a billion-dollar industry. Fortunately, my name is
 + **PageRank**: [PR Checker](http://www.prchecker.info/) is one of many tools online that can spit out the PageRank of any site.
 
 ###Branding
-+ **Intellectual Property**: [Creative Commons](https://creativecommons.org/) 
++ **Intellectual Property**: [Creative Commons](https://creativecommons.org/). 
 + **Domain Reservation**: [Namech_k](https://namechk.com/) is a great resource for helping you secure your online alias on as many public platforms as possible. 
 + **Copyright**: Developed by Bryan Dosono under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
