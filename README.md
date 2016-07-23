@@ -30,7 +30,7 @@
 
 ###Audits
 + **Accessibility**: Having conducted research ([*Dosono, 2015*](https://www.usenix.org/system/files/conference/soups2015/soups15-paper-dosono.pdf)) with visually-impaired computer users, I wanted to ensure that my website was accessible via screen reader. 
-  + The [Wave Accessibility Evaluation Tool](http://wave.webaim.org/report#/http://www.bdosono.com/) helps me detect any potential problems that may arise among screenreaders. 
+  + The [Wave Accessibility Evaluation Tool](http://wave.webaim.org/report#/http://www.bdosono.com/) helps me detect any potential problems that may arise among screenreaders. It detected 0 accessibility errors on the site.
   + The [Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb) Google Chrome extension also helps identify other areas of concern. Both tools found 0 accessibility concerns in the site. 
   + The [World Wide Web Consortium](https://www.w3.org/standards/webdesign/accessibility) also makes a strong case for accessiblity in their set of published standards, such as providing alternative text for images and links.
 + **Efficiency**: The site scores a 100% performance rating on both [Pingdom](https://tools.pingdom.com/#!/bGotxy/http://www.bdosono.com/) and [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fwww.bdosono.com%2F). I minimized assets wherever possible:
