@@ -46,7 +46,7 @@
 
 ###Semantics
 + **Structured Microdata**: [Schema.org](http://schema.org/) is a set of extensible schemas that enables webmasters to embed structured data on their web pages for use by search engines and other applications.
-+ **Social Metadata**: Incorporating markup from [Facebook Open Graph](https://developers.facebook.com/docs/sharing/webmasters) and [Twitter Cards](https://dev.twitter.com/cards/overview)
++ **Social Metadata**: Incorporating markup from [Facebook Open Graph](https://developers.facebook.com/docs/sharing/webmasters) and [Twitter Cards](https://dev.twitter.com/cards/overview).
 + **Tracking Data**: [Google Analytics](https://analytics.google.com) provides granular traffic data on users who visits the site. Because I opted to store the [*analytics.js*](https://www.google-analytics.com/analytics.js) file locally to save on one less http call, I will have to update my local file annually to ensure that nothing breaks. 
 
 ###Content
