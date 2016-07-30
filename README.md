@@ -36,7 +36,7 @@
 + **Efficiency**: The site scores a 100% performance rating on both [Pingdom](https://tools.pingdom.com/#!/bGotxy/http://www.bdosono.com/) and [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fwww.bdosono.com%2F). I minimized assets wherever possible:
   + Used customized [Fontello](http://fontello.com/) font for the social media icons instead of loading small images.
   + [Embedded CSS](http://www.w3schools.com/html/html_css.asp) directly onto the HTML page to save one less file from loading.
-  + Used minifying tools to reduce code.
+  + Used minifying tools from [GTmetrix](https://gtmetrix.com/) to reduce HTML and [CSS Minifier](https://cssminifier.com/) to consolidate CSS.
 + **Reliability**: Validating the architectural soundness of the website ensures the functional integrity of the HTML code.
   + [W3C Markup Validation Service](https://validator.w3.org/) catches HTML errors with just a click.
   + Unecessary CSS can be removed with [CSS Lint](http://csslint.net/). Responsive design allows for the site content to adjust accordingly for optimal viewing among mobile, tablet, and desktop devices.
