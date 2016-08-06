@@ -14,7 +14,6 @@
 > 3. [Discovery](#discovery)
 >  1. [Optimization](#optimization)
 >  2. [Branding](#branding)
->  3. [Conversions](#conversions)
 
 ##Development
 
