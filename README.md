@@ -24,7 +24,7 @@
 ###Environment
 + **Editor**: [Sublime Text](https://www.sublimetext.com/) is my editor of choice.
 + **FTP Client**: [Sublime SFTP](https://wbond.net/sublime_packages/sftp) allows you to edit files off of a server and map local folders to remote folders.
-+ **Template**: [Bootstrap](http://getbootstrap.com/) is great for boilerplate code to start.
++ **Template**: While [Bootstrap](http://getbootstrap.com/) is great for boilerplate code to start, the bulk of the site was coded from scratch.
 
 ###Audits
 + **Accessibility**: Having conducted research ([*Dosono, 2015*](https://www.usenix.org/system/files/conference/soups2015/soups15-paper-dosono.pdf)) with visually-impaired computer users, I wanted to ensure that my website was accessible via screen reader. 
