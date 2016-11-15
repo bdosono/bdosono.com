@@ -53,7 +53,7 @@
 + **Personable**: I like to have fun with language! Note how the headers (Interests, Inquiries, Insights, Interactions) are alliterative—as well as the sections (Development, Data, Discovery) in this very README file. :wink:
 
 ###Visualization
-+ **Imagery**: Photo coming soon!
++ **Imagery**: I used https://unsplash.com/ to find a royalty-free images in high resolution. I chose a mountain background photo that complemented the existing color scheme of my website.
 + **Layout**: With respect to the *Law of Proximity*, my research interests (separated by bullet) are listed in their own section. Each H2 header is situated immediately above their section. With respect to the *Law of Similarity*, the social links are also grouped in their respective columns.
 + **Typography**: [Typography Handbook](http://typographyhandbook.com/) is a beautifully designed resource that explains best practices of how type is diplayed online. I chose to use [Lato](http://www.latofonts.com/lato-free-fonts/) because it is an open-sourced sans-serif font, which allows for legibility on the screen.
 
