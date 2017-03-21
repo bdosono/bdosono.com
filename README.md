@@ -3,16 +3,16 @@
 **Table of Contents**
 
 1. [Development](#development)
-  1. [Purpose](#purpose)
-  2. [Environment](#environment)
-  3. [Audits](#audits)
+ [Purpose](#purpose)
+ [Environment](#environment)
+ [Audits](#audits)
 2. [Data](#data)
-  1. [Semantics](#semantics)
-  2. [Content](#content)
-  3. [Visualization](#visualization) 
+ [Semantics](#semantics)
+ [Content](#content) 
+ [Visualization](#visualization) 
 3. [Discovery](#discovery)
-  1. [Optimization](#optimization)
-  2. [Branding](#branding)
+  [Optimization](#optimization)
+  [Branding](#branding)
 
 ## Development
 
