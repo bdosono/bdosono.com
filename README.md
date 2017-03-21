@@ -3,16 +3,16 @@
 **Table of Contents**
 
 > 1. [Development](#development)
->  1. [Purpose](#purpose)
->  2. [Environment](#environment)
->  3. [Audits](#audits)
+>   1. [Purpose](#purpose)
+>   2. [Environment](#environment)
+>   3. [Audits](#audits)
 > 2. [Data](#data)
->  1. [Semantics](#semantics)
->  2. [Content](#content)
->  3. [Visualization](#visualization) 
+>   1. [Semantics](#semantics)
+>   2. [Content](#content)
+>   3. [Visualization](#visualization) 
 > 3. [Discovery](#discovery)
->  1. [Optimization](#optimization)
->  2. [Branding](#branding)
+>   1. [Optimization](#optimization)
+>   2. [Branding](#branding)
 
 ## Development
 
@@ -68,4 +68,4 @@ Search Engine Optimization is a billion-dollar industry. Fortunately, my name is
 ### Branding
 + **Domain Reservation**: [Namech_k](https://namechk.com/) is a great resource for helping you secure your online alias on as many public platforms as possible. 
 + **Copyright**: Developed by Bryan Dosono under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
-+ **Conversations**: [Moz](https://moz.com/learn/seo/conversion-rate-optimization) explains conversion rate optimization and shares best practices on crafting calls to action.
++ **Conversions**: [Moz](https://moz.com/learn/seo/conversion-rate-optimization) explains conversion rate optimization and shares best practices on crafting calls to action.
