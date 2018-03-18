@@ -55,7 +55,7 @@
 ### Visualization
 + **Imagery**: I used [Unsplash](https://unsplash.com/) to find a royalty-free image in high resolution. I chose a mountain background photo that complemented the existing color scheme of my website. I uploaded the original background image (2.8 MB) to Twitter, which compressed it for me (433 KB), and uploaded the compressed version of the image to my site. I also used [Favicon Generator](https://realfavicongenerator.net/) to help create different versions of favicons appropriate for different browsers.
 + **Layout**: With respect to the *Law of Proximity*, my research interests (separated by bullet) are listed in their own section. Each H2 header is situated immediately above their section. With respect to the *Law of Similarity*, the social links are also grouped in their respective columns.
-+ **Typography**: [Typography Handbook](http://typographyhandbook.com/) is a beautifully designed resource that explains best practices of how type is diplayed online. I chose to use [Lato](http://www.latofonts.com/lato-free-fonts/) because it is an open-sourced sans-serif font, which allows for legibility on the screen.
++ **Typography**: [Typography Handbook](http://typographyhandbook.com/) is a beautifully designed resource that explains best practices of how type is diplayed online. I chose to use [Lato](http://www.latofonts.com/lato-free-fonts/) because it is an open-sourced sans-serif font, which allows for legibility on the screen. An awesome resource on becoming a [Type Snob is available as a Medium post](https://thedesignteam.io/the-type-snob-f221969a884b).
 
 ## Discovery
 
