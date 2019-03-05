@@ -45,7 +45,7 @@
 ### Semantics
 + **Structured Microdata**: [Schema.org](http://schema.org/) is a set of extensible schemas that enables webmasters to embed structured data on their web pages for use by search engines and other applications.
 + **Social Metadata**: Incorporating markup from [Facebook Open Graph](https://developers.facebook.com/docs/sharing/webmasters) and [Twitter Cards](https://dev.twitter.com/cards/overview) is important because these meta tags affect conversions and click-through rates.
-+ **Tracking Data**: [Google Analytics](https://analytics.google.com) provides granular traffic data on users who visits the site. Because I opted to store the [*analytics.js*](https://www.google-analytics.com/analytics.js) file locally to save on one less http call, I will have to update my local file annually to ensure that nothing breaks. 
++ **Tracking Data**: [Google Analytics](https://analytics.google.com) provides granular traffic data on users who visits the site. I opted to use a [Minimal Google Analytics Snippet](https://minimalanalytics.com/) to send page views directly to the Google Analytics API without having to request external libraries.
 
 ### Content
 + **Minimal**: _Less is more._ I'm a huge fan of minimal design, which steered me away from incorporating distracting web elements: animations, patterned backgrounds, and meaningless shadows. The clear call-to-action on the website is the download button. 
