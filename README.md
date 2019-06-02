@@ -32,7 +32,7 @@
   + The [Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb) Google Chrome extension also helps identify other areas of concern. Both tools found 0 accessibility concerns in the site. 
   + The [World Wide Web Consortium](https://www.w3.org/standards/webdesign/accessibility) also makes a strong case for accessiblity in their set of published standards, such as providing alternative text for images and links.
 + **Efficiency**: The site scores a 100% performance rating on both [Pingdom](https://tools.pingdom.com/#!/bGotxy/http://www.bdosono.com/) and [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fwww.bdosono.com%2F). I minimized assets wherever possible:
-  + Used customized [Fontello](http://fontello.com/) font for the social media icons instead of loading small images.
+  + Used [Google Lighthouse](https://web.dev/measure) to identify opportunities for page optimization and determining lag.
   + [Embedded CSS](http://www.w3schools.com/html/html_css.asp) directly onto the HTML page to save one less file from loading.
   + Used minifying tools from [GTmetrix](https://gtmetrix.com/) to reduce HTML and [CSS Minifier](https://cssminifier.com/) to consolidate CSS.
 + **Reliability**: Validating the architectural soundness of the website ensures the functional integrity of the HTML code.
