@@ -20,15 +20,22 @@ ErrorDocument 404 /index.html
 
 RewriteEngine On
 RewriteCond %{HTTP_HOST} !^(.*)\.bdosono\.com$ [NC]
+RewriteCond %{HTTP_HOST} ^bdosono\.com [NC]
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)$ https://www.bdosono.com/$1 [R=301,L]
 RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
 RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteCond %{SERVER_PORT} 80 
-RewriteRule ^(.*)$ https://www.bdosono.com/$1 [R=301,L]
+RewriteRule ^(.*)$ https://www.bdosono.com/$1 [R,L]
 RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
 RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
 RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
 RewriteRule .* – [F,L]
 
 SetEnvIfNoCase User-Agent "^libwww-perl*" block_bad_bots
@@ -38,9 +45,18 @@ Deny from env=block_bad_bots
 Header set Access-Control-Allow-Origin "*"
 </FilesMatch>
 
+Header set Strict-Transport-Security "max-age=31536000" env=HTTPS
+
 AddType application/font-sfnt            otf ttf
 AddType application/font-woff            woff
 AddType application/font-woff2           woff2
 AddType application/vnd.ms-fontobject    eot
 
 AddType 'text/html; charset=UTF-8' html
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php73” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php73 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
