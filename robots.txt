@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /resume.pdf
+Disallow: /apex.html
+Disallow: /blend.html
+Disallow: /canvas.html
+Disallow: /focal.html
+Disallow: /splash.html
+Disallow: /studio.html
+Sitemap: http://www.bdosono.com/sitemap.xml
