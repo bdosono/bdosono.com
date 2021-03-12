@@ -13,6 +13,7 @@
 > 3. [Discovery](#discovery)
 > - [Optimization](#optimization)
 > - [Branding](#branding)
+> - [Archiving](#archiving)
 
 ## Development
 
@@ -50,7 +51,7 @@
 ### Content
 + **Minimal**: _Less is more._ I'm a huge fan of minimal design, which steered me away from incorporating distracting web elements: animations, patterned backgrounds, and meaningless shadows. The clear call-to-action on the website is the download button. 
 + **Intentional**: I find that powerful writing is concise writing. At its core, I wanted my website to communicate only the most important content I would want others to find within their first 10 seconds of browsing.
-+ **Personable**: I like to have fun with language! Note how the headers (Interests, Inquiries, Insights, Interactions) are alliterative—as well as the sections (Development, Data, Discovery) in this very README file. :wink:
++ **Personable**: I like to have fun with language! Note how the body text (Consult, Contact, Connect) are alliterative—as well as the sections (Development, Data, Discovery) in this very README file. :wink:
 
 ### Visualization
 + **Imagery**: I used [Unsplash](https://unsplash.com/) to find a royalty-free image in high resolution. I chose a mountain background photo that complemented the existing color scheme of my website. I uploaded the original background image (2.8 MB) to Twitter, which compressed it for me (433 KB), and uploaded the compressed version of the image to my site. I also used [Favicon Generator](https://realfavicongenerator.net/) to help create different versions of favicons appropriate for different browsers.
@@ -69,3 +70,8 @@ Search Engine Optimization is a billion-dollar industry. Fortunately, my name is
 + **Domain Reservation**: [Namech_k](https://namechk.com/) is a great resource for helping you secure your online alias on as many public platforms as possible. 
 + **Copyright**: Developed by Bryan Dosono under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 + **Conversions**: [Moz](https://moz.com/learn/seo/conversion-rate-optimization) explains conversion rate optimization and shares best practices on crafting calls to action.
+
+### Archiving
++ **Readiness**: The [Archive Ready](http://archiveready.com/check?url=https://www.bdosono.com/) tool estimates how likely a web page will be archived successfully.
++ **Link Rot**: I periodically check my site for link rot, and use this helpful [command-line tool](https://www.metachris.com/2016/03/find-broken-hyperlinks-in-a-pdf-document-with-pdfx/) to scan for broken hyperlinks within PDFs.
++ **Batch Saving**: The Internet Archive's [Save Page Now](https://web.archive.org/save) feature preserves outlinks of a page all in one sitting. 
