@@ -1,62 +1,27 @@
-## EXPIRES CACHING ##
 <IfModule mod_expires.c>
 ExpiresActive On
-ExpiresByType image/jpg "access 1 month"
-ExpiresByType image/jpeg "access 1 month"
-ExpiresByType image/gif "access 1 month"
-ExpiresByType image/png "access 1 year"
-ExpiresByType text/css "access 1 week"
-ExpiresByType text/html "access 1 week"
-ExpiresByType application/pdf "access 1 week"
-ExpiresByType text/x-javascript "access 1 month"
-ExpiresByType application/x-shockwave-flash "access 1 month"
-ExpiresByType application/x-font-woff "access 1 year"
-ExpiresByType image/x-icon "access 1 month"
-ExpiresDefault "access 1 week"
+ExpiresByType image/webp "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/svg+xml "access plus 1 year"
+ExpiresByType image/x-icon "access plus 1 year"
+ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
+AddType font/woff2 .woff2
+ExpiresByType font/woff2 "access plus 1 year"
+ExpiresByType application/pdf "access plus 1 week"
+ExpiresByType text/html "access plus 10 minutes"
 </IfModule>
-## EXPIRES CACHING ##
-
-ErrorDocument 404 /index.html
-
-RewriteEngine On
-RewriteCond %{HTTP_HOST} !^(.*)\.bdosono\.com$ [NC]
-RewriteCond %{HTTP_HOST} ^bdosono\.com [NC]
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^(.*)$ https://www.bdosono.com/$1 [R=301,L]
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteCond %{SERVER_PORT} 80 
-RewriteRule ^(.*)$ https://www.bdosono.com/$1 [R,L]
-RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
-RewriteRule .* – [F,L]
-
-SetEnvIfNoCase User-Agent "^libwww-perl*" block_bad_bots
-Deny from env=block_bad_bots
-
-<FilesMatch ".(eot|ttf|otf|woff|woff2)">
-Header set Access-Control-Allow-Origin "*"
+<IfModule mod_headers.c>
+<FilesMatch "\.(webp|png|jpe?g|svg|ico|woff2)$">
+Header set Cache-Control "public, max-age=31536000, immutable"
 </FilesMatch>
-
-Header set Strict-Transport-Security "max-age=31536000" env=HTTPS
-
-AddType application/font-sfnt            otf ttf
-AddType application/font-woff            woff
-AddType application/font-woff2           woff2
-AddType application/vnd.ms-fontobject    eot
-
-AddType 'text/html; charset=UTF-8' html
-
-# php -- BEGIN cPanel-generated handler, do not edit
-# Set the “ea-php73” package as the default “PHP” programming language.
-<IfModule mime_module>
-  AddHandler application/x-httpd-ea-php73 .php .php7 .phtml
+<FilesMatch "\.pdf$">
+Header set Cache-Control "public, max-age=604800"
+</FilesMatch>
+<FilesMatch "\.html?$">
+Header set Cache-Control "public, max-age=600"
+</FilesMatch>
 </IfModule>
-# php -- END cPanel-generated handler, do not edit
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/css application/javascript image/svg+xml application/json
+</IfModule>
