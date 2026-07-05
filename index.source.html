@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bryan Dosono, PhD</title>
+<meta name="description" content="Dr. Bryan Dosono is an award-winning speaker, technologist, advisor, and researcher who creates joy at the intersection of identity, impact, and innovation.">
+<meta name="keywords" content="Dosono, Identity, Internet, UX Research, UXR, AAPI, Asian American, Speaker, Technologist, Advisor, Researcher">
+<link rel="canonical" href="https://www.bdosono.com/">
+<meta property="og:title" content="Bryan Dosono, PhD">
+<meta property="og:description" content="Dr. Bryan Dosono is a research leader in New York City.">
+<meta property="og:image" content="https://www.bdosono.com/Eclipse.png">
+<meta property="og:url" content="https://www.bdosono.com/">
+<meta property="og:site_name" content="Bryan Dosono">
+<meta property="og:type" content="article">
+<meta name="theme-color" content="#0a0b0c">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="preload" as="font" type="font/woff2" href="/rasa-subset.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/lato-regular.woff2" crossorigin>
+<link rel="preload" as="image" href="https://www.bdosono.com/Shine.webp" imagesrcset="https://www.bdosono.com/Shine-251.webp 251w, https://www.bdosono.com/Shine.webp 502w" imagesizes="(max-width: 313px) 80vw, 251px" fetchpriority="high">
+<style>
+  @font-face {
+    font-family: "Rasa";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/rasa-subset.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/lato-regular.woff2") format("woff2");
+  }
+
+  :root {
+    --bg: #0a0b0c;
+    --surface: #121216;
+    --text: #ececef;
+    --text-dim: #9a9aa3;
+    --accent: #e3c27d;          /* text-safe gold (AAA on dark bg) */
+    --gold: 227, 194, 125;      /* decorative gold as RGB triplet for tints */
+    --gold-hi: #ffedbe;         /* brightest gold: shimmer peak, meteor head */
+    --glow-cool: 120, 100, 200; /* purple undertone in the ambient glow */
+    --ring: rgba(var(--gold), 0.35);
+    --sans: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --serif: "Rasa", Georgia, serif;
+  }
+
+  [data-theme="light"] {
+    --bg: #faf9f6;
+    --surface: #ffffff;
+    --text: #1c1c20;
+    --text-dim: #5f5f68;
+    --accent: #8a6420;          /* text-safe gold: 5.08:1 on light bg (WCAG AA) */
+    --gold: 160, 123, 50;       /* decorative gold (#a07b32): 3.71:1, fine for non-text */
+    --gold-hi: #c9973b;         /* brightest gold on light bg */
+    --ring: rgba(var(--gold), 0.4);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { color-scheme: dark; }
+  html[data-theme="light"] { color-scheme: light; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    min-height: 100svh;
+    display: grid;
+    place-items: center;
+    padding: 3rem 1.5rem;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    transition: background 0.4s ease, color 0.4s ease;
+  }
+
+  /* Ambient glow behind the hero */
+  body::before {
+    content: "";
+    position: fixed;
+    top: -20vh;
+    left: 50%;
+    transform: translate(calc(-50% + var(--glow-x, 0px)), var(--glow-y, 0px));
+    will-change: transform;
+    width: 70vmax;
+    height: 70vmax;
+    background: radial-gradient(circle at center,
+      rgba(var(--gold), 0.11) 0%,
+      rgba(var(--glow-cool), 0.07) 35%,
+      transparent 65%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  [data-theme="light"] body::before {
+    background: radial-gradient(circle at center,
+      rgba(var(--gold), 0.06) 0%,
+      rgba(var(--glow-cool), 0.08) 35%,
+      transparent 65%);
+  }
+
+  main {
+    position: relative;
+    z-index: 1;
+    max-width: 40rem;
+    text-align: center;
+    animation: rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  @keyframes rise {
+    from { transform: translateY(18px); }
+    to   { transform: translateY(0); }
+  }
+
+  .portrait-toggle {
+    display: block;
+    margin: 0 auto 2.25rem;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+  }
+
+  /* Pulsating golden glow */
+  .portrait-toggle::after {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    border-radius: 50%;
+    box-shadow:
+      0 0 25px rgba(var(--gold), 0.35),
+      0 0 70px rgba(var(--gold), 0.22),
+      0 0 140px rgba(var(--gold), 0.14);
+    animation: glow-pulse 4.5s ease-in-out infinite;
+    pointer-events: none;
+  }
+
+  @keyframes glow-pulse {
+    0%, 100% { opacity: 0.3; }
+    50%      { opacity: 1; }
+  }
+
+  .portrait {
+    width: min(251px, 80vw);
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    border: none;
+    box-shadow:
+      0 0 0 2px rgb(var(--gold)),
+      0 0 20px rgba(var(--gold), 0.4),
+      0 0 60px rgba(var(--gold), 0.28),
+      0 0 130px rgba(var(--gold), 0.16);
+    transition: box-shadow 0.4s ease;
+  }
+
+  h1 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2.6rem, 6.5vw, 3.9rem);
+    letter-spacing: -0.015em;
+    line-height: 1.1;
+    /* permanent padding gives the shimmer's background-clip room for
+       descenders; negative margins cancel it so layout never shifts */
+    padding: 0.25em;
+    margin: -0.25em -0.25em calc(0.4rem - 0.25em);
+  }
+
+  /* Easter egg: golden shimmer sweep on name click */
+  h1.shimmer {
+    background: linear-gradient(110deg,
+      var(--text) 30%,
+      var(--accent) 44%,
+      var(--gold-hi) 50%,
+      var(--accent) 56%,
+      var(--text) 70%);
+    background-size: 300% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    animation: name-shimmer 1.6s ease-in-out;
+  }
+
+  @keyframes name-shimmer {
+    from { background-position: 175% 0; }
+    to   { background-position: -75% 0; }
+  }
+
+  h1 .phd {
+    font-size: 0.5em;
+    color: var(--text-dim);
+    font-weight: 400;
+    vertical-align: 0.5em;
+    margin-left: 0.3em;
+    letter-spacing: 0.02em;
+  }
+
+  .roles {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: clamp(0.2rem, 0.9vw, 0.55rem);
+    margin: 1.75rem 0 3.5rem;
+    font-size: clamp(0.75rem, 2.9vw, 1.1rem);
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+  }
+
+  .roles a {
+    color: var(--accent);
+    text-decoration: none;
+    border: 1px solid var(--ring);
+    border-radius: 999px;
+    padding: 0.4rem clamp(0.4rem, 1.2vw, 0.9rem);
+    position: relative;
+    transition: background 0.25s ease, border-color 0.25s ease,
+                box-shadow 0.25s ease, transform 0.25s ease;
+  }
+
+  .roles a:hover,
+  .roles a:focus-visible {
+    background: rgba(var(--gold), 0.12);
+    border-color: var(--accent);
+    box-shadow: 0 0 25px rgba(var(--gold), 0.15);
+  }
+
+  /* Hover preview cards */
+  .roles a::after {
+    content: attr(data-preview);
+    position: absolute;
+    top: calc(100% + 0.7rem);
+    left: 50%;
+    transform: translateX(-50%) translateY(4px);
+    background: var(--surface);
+    color: var(--text-dim);
+    border: 1px solid var(--ring);
+    border-radius: 8px;
+    padding: 0.5rem 0.85rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    text-transform: none;
+    white-space: nowrap;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease, transform 0.25s ease;
+    z-index: 3;
+  }
+
+  .roles a:hover::after,
+  .roles a:focus-visible::after {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+
+  .roles li:first-child a::after { left: 0; transform: translateX(0) translateY(4px); }
+  .roles li:first-child a:hover::after,
+  .roles li:first-child a:focus-visible::after { transform: translateX(0) translateY(0); }
+
+  .roles li:last-child a::after { left: auto; right: 0; transform: translateX(0) translateY(4px); }
+  .roles li:last-child a:hover::after,
+  .roles li:last-child a:focus-visible::after { transform: translateX(0) translateY(0); }
+
+  @media (hover: none) {
+    .roles a::after { display: none; }
+  }
+
+  .roles li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .tagline {
+    font-size: clamp(0.85rem, 2.9vw, 1.1rem);
+    line-height: 1.7;
+    color: var(--text-dim);
+    max-width: 32rem;
+    margin: 0 auto 0.5rem;
+    font-weight: 400;
+  }
+
+  .tagline a {
+    color: var(--text);
+    text-decoration: underline;
+    text-decoration-color: var(--ring);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+    position: relative;
+    transition: color 0.25s ease, text-decoration-color 0.25s ease;
+  }
+
+  .tagline a:hover {
+    color: var(--accent);
+    text-decoration-color: var(--accent);
+  }
+
+
+  /* Easter egg: gold meteor fired by clicking "fun" */
+  .meteor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgba(var(--gold), 0.9));
+    border-radius: 999px;
+    pointer-events: none;
+    z-index: 10;
+  }
+
+  .meteor::after {
+    content: "";
+    position: absolute;
+    right: -2px;
+    top: 50%;
+    width: 5px;
+    height: 5px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: var(--gold-hi);
+    box-shadow: 0 0 12px 3px rgba(var(--gold), 0.8);
+  }
+
+  /* Click-to-copy confirmation on the email link */
+  .tagline a.copied::after {
+    content: "Copied ✓";
+    position: absolute;
+    top: calc(100% + 0.4rem);
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--accent);
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+
+  .tagline.contact { margin-bottom: 0; }
+
+  @media (max-width: 420px) {
+    body { padding: 2rem 0.75rem; }
+  }
+
+  a:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 4px;
+    border-radius: 2px;
+  }
+
+  .portrait-toggle:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 6px;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    main { animation: none; }
+    .portrait-toggle::after { animation: none; opacity: 0.6; }
+    .portrait, .roles a { transition: none; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <button class="portrait-toggle" type="button" id="theme-toggle" aria-pressed="false" title="Toggle light and dark mode">
+    <img class="portrait" src="https://www.bdosono.com/Shine.webp" srcset="https://www.bdosono.com/Shine-251.webp 251w, https://www.bdosono.com/Shine.webp 502w" sizes="(max-width: 313px) 80vw, 251px" alt="Photo of Bryan Dosono — click to toggle light and dark mode" width="251" height="251">
+  </button>
+
+  <h1>Bryan Dosono <span class="phd">PhD</span></h1>
+
+  <ul class="roles">
+    <li><a href="https://beacons.ai/bdosono" target="_blank" rel="noopener" aria-label="Speaker — watch select talks on YouTube (opens in new tab)" data-preview="Watch select talks on YouTube">Speaker</a></li>
+    <li><a href="https://www.linkedin.com/in/bdosono" target="_blank" rel="noopener" aria-label="Technologist — review career journey on LinkedIn (opens in new tab)" data-preview="Review career journey on LinkedIn">Technologist</a></li>
+    <li><a href="https://www.bdosono.com/cv.pdf" target="_blank" rel="noopener" aria-label="Advisor — download CV as PDF (opens in new tab)" data-preview="Download CV as PDF">Advisor</a></li>
+    <li><a href="https://scholar.google.com/citations?user=Xo2EwKQAAAAJ" target="_blank" rel="noopener" aria-label="Researcher — read publications on Google Scholar (opens in new tab)" data-preview="Read publications on Google Scholar">Researcher</a></li>
+  </ul>
+
+  <p class="tagline contact">
+    <a href="mailto:infoATbdosonoDOTcom" title="Link to email address" aria-label="Link to email address">Email</a> for work ·
+    <a href="https://linktr.ee/bdosono" target="_blank" rel="noopener" title="Link to hobbies" aria-label="Link to hobbies">Explore</a> for <span class="collab">fun</span>
+    <span id="copy-status" class="visually-hidden" aria-live="polite"></span>
+  </p>
+</main>
+<script>
+  /* Minimal GA4 beacon: sends the page_view directly to the Measurement
+     endpoint with zero library code (replaces the ~70KB gtag.js) */
+  (() => {
+    const tid = 'G-R485WKD4X7';
+    let cid = localStorage.getItem('ga_cid');
+    const newUser = !cid;
+    if (newUser) {
+      cid = Math.floor(Math.random() * 2147483647) + '.' + Math.floor(Date.now() / 1000);
+      localStorage.setItem('ga_cid', cid);
+    }
+    let sid = sessionStorage.getItem('ga_sid');
+    const newSession = !sid;
+    if (newSession) {
+      sid = String(Math.floor(Date.now() / 1000));
+      sessionStorage.setItem('ga_sid', sid);
+    }
+    const p = new URLSearchParams({
+      v: '2', tid: tid, cid: cid, sid: sid,
+      sct: '1', seg: '1', _s: '1', _p: String(Date.now()),
+      dl: location.href, dt: document.title,
+      ul: (navigator.language || '').toLowerCase(),
+      sr: screen.width + 'x' + screen.height,
+      en: 'page_view'
+    });
+    if (newUser) p.set('_fv', '1');
+    if (newSession) p.set('_ss', '1');
+    navigator.sendBeacon('https://www.google-analytics.com/g/collect?' + p);
+  })();
+</script>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"Person","name":"Bryan Dosono","jobTitle":"Research Principal","url":"https://www.bdosono.com/","sameAs":["https://www.linkedin.com/in/bdosono"]}</script>
+
+<script>
+  /* read viewport first, before any DOM writes, to avoid a forced reflow */
+  let vw = window.innerWidth, vh = window.innerHeight;
+  window.addEventListener('resize', () => {
+    vw = window.innerWidth; vh = window.innerHeight;
+  }, { passive: true });
+
+  const root = document.documentElement;
+  const toggle = document.getElementById('theme-toggle');
+  const themeMeta = document.querySelector('meta[name="theme-color"]');
+
+  function applyTheme(theme) {
+    if (theme === 'light') {
+      root.setAttribute('data-theme', 'light');
+    } else {
+      root.removeAttribute('data-theme');
+    }
+    toggle.setAttribute('aria-pressed', theme === 'light');
+    themeMeta.setAttribute('content', theme === 'light' ? '#faf9f6' : '#0a0b0c');
+  }
+
+  const saved = localStorage.getItem('theme');
+  if (saved) applyTheme(saved);
+
+  toggle.addEventListener('click', () => {
+    const next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+    applyTheme(next);
+    localStorage.setItem('theme', next);
+  });
+
+  /* --- Interactive effects --- */
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+
+  if (finePointer && !reduceMotion) {
+    /* Cursor-reactive ambient glow */
+    let tx = 0, ty = 0, cx = 0, cy = 0, raf = null;
+    const drift = () => {
+      cx += (tx - cx) * 0.09;
+      cy += (ty - cy) * 0.09;
+      root.style.setProperty('--glow-x', cx.toFixed(1) + 'px');
+      root.style.setProperty('--glow-y', cy.toFixed(1) + 'px');
+      raf = (Math.abs(tx - cx) > 0.5 || Math.abs(ty - cy) > 0.5)
+        ? requestAnimationFrame(drift) : null;
+    };
+    window.addEventListener('mousemove', (e) => {
+      tx = (e.clientX / vw - 0.5) * 320;
+      ty = (e.clientY / vh - 0.5) * 220;
+      if (!raf) raf = requestAnimationFrame(drift);
+    }, { passive: true });
+
+    /* Magnetic role pills */
+    document.querySelectorAll('.roles a').forEach((pill) => {
+      let px = 0, py = 0;
+      pill.addEventListener('mouseenter', () => {
+        /* one read per hover, before any transform is applied */
+        const r = pill.getBoundingClientRect();
+        px = r.left + r.width / 2;
+        py = r.top + r.height / 2;
+      });
+      pill.addEventListener('mousemove', (e) => {
+        pill.style.transform =
+          `translate(${((e.clientX - px) * 0.18).toFixed(1)}px, ${((e.clientY - py) * 0.35).toFixed(1)}px)`;
+      }, { passive: true });
+      pill.addEventListener('mouseleave', () => { pill.style.transform = ''; });
+    });
+
+  }
+
+  /* Email link: real address assembled at runtime (kept out of static HTML
+     to deter scrapers), with click-to-copy confirmation */
+  const mailLink = document.querySelector('.contact a[href^="mailto:"]');
+  const addr = ['info', 'bdosono' + '.' + 'com'].join('@');
+  mailLink.href = 'mailto:' + addr;
+  const copyStatus = document.getElementById('copy-status');
+  mailLink.addEventListener('click', () => {
+    if (!navigator.clipboard) return;
+    navigator.clipboard.writeText(addr).then(() => {
+      mailLink.classList.add('copied');
+      copyStatus.textContent = 'Email address copied to clipboard';
+      setTimeout(() => {
+        mailLink.classList.remove('copied');
+        copyStatus.textContent = '';
+      }, 1800);
+    });
+  });
+
+
+  /* Easter egg: golden shimmer when the name is clicked */
+  if (!reduceMotion) {
+    const name = document.querySelector('h1');
+    name.addEventListener('click', () => name.classList.add('shimmer'));
+    name.addEventListener('animationend', () => name.classList.remove('shimmer'));
+  }
+
+  /* Easter eggs: shooting star on "fun" click,
+     meteor storm on the Konami code */
+  if (!reduceMotion) {
+    const shootStar = () => {
+      const m = document.createElement('div');
+      m.className = 'meteor';
+      const startX = Math.random() * vw * 0.4 - 120;
+      const startY = Math.random() * vh * 0.35;
+      const dx = vw * (0.6 + Math.random() * 0.4);
+      const dy = dx * (0.35 + Math.random() * 0.2);
+      const angle = (Math.atan2(dy, dx) * 180 / Math.PI).toFixed(1);
+      document.body.appendChild(m);
+      m.animate([
+        { transform: `translate(${startX}px, ${startY}px) rotate(${angle}deg)`, opacity: 0 },
+        { opacity: 1, offset: 0.15 },
+        { opacity: 1, offset: 0.75 },
+        { transform: `translate(${startX + dx}px, ${startY + dy}px) rotate(${angle}deg)`, opacity: 0 }
+      ], { duration: 1100, easing: 'cubic-bezier(0.25, 0.4, 0.6, 1)' })
+        .onfinish = () => m.remove();
+    };
+
+    document.querySelector('.collab').addEventListener('click', shootStar);
+
+    const konami = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown',
+                    'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+    let ki = 0;
+    window.addEventListener('keydown', (e) => {
+      const k = e.key.length === 1 ? e.key.toLowerCase() : e.key;
+      ki = (k === konami[ki]) ? ki + 1 : (k === konami[0] ? 1 : 0);
+      if (ki === konami.length) {
+        ki = 0;
+        for (let i = 0; i < 101; i++) {
+          setTimeout(shootStar, i * 55 + Math.random() * 70);
+        }
+      }
+    });
+  }
+</script>
+</body>
+</html>
