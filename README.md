@@ -16,7 +16,7 @@
 ## Direction
 ### Purpose
 - **Objective**: To modernize my one-stop landing page with a dark-mode-first redesign.
-- **Outcome**: Website now live at <https://www.bdosono.com/>. This README.md file is an alliterative update to the [2016 version](https://github.com/bdosono/bdosono.com/blob/master/README.md) I initially compiled a decade ago. 
+- **Outcome**: Website now live at <https://www.bdosono.com/>. This README.md file is an alliterative update to the [2016 version](https://github.com/bdosono/bdosono.com/blob/master/README-2016.md) I initially compiled a decade ago. 
 - **Overview**: This site has undergone multiple iterations since grad school. See the visual progression on my [Behance](https://www.behance.net/gallery/38857453/Personal-Website) profile or the [Internet Archive](https://web.archive.org/web/*/https://www.bdosono.com/). This latest revamp trades the minimal light layout for something more atmospheric, and below I document the design decisions and auditing rigor behind it to inspire others to polish their own web presence.
 ### Theme
 - **Celestial Eclipse**: The entire visual identity orbits a single metaphor: a total eclipse. My circular portrait sits inside a golden ring with a layered corona glow that gently pulses, like a ring of light around a dark disc. The near-black background (`#0a0b0c`) is the night sky; a faint radial glow with a cool purple undertone provides the atmosphere.
