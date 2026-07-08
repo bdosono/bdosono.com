@@ -307,6 +307,39 @@
   }
 
 
+  .collab { cursor: pointer; }
+
+  /* Twinkling spark: visible trigger for the shooting star */
+  .spark {
+    position: fixed;
+    z-index: 2;
+    background: none;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    color: var(--accent);
+    font-size: 15px;
+    line-height: 1;
+    animation: twinkle 2s ease-in-out infinite;
+  }
+
+  .spark.hide {
+    animation: none;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .spark:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 50%;
+  }
+
+  @keyframes twinkle {
+    0%, 100% { opacity: 0.35; transform: scale(0.85); }
+    50%      { opacity: 1; transform: scale(1.15); }
+  }
+
   /* Easter egg: gold meteor fired by clicking "fun" */
   .meteor {
     position: fixed;
@@ -535,10 +568,18 @@
     const shootStar = () => {
       const m = document.createElement('div');
       m.className = 'meteor';
-      const startX = Math.random() * vw * 0.4 - 120;
-      const startY = Math.random() * vh * 0.35;
-      const dx = vw * (0.6 + Math.random() * 0.4);
-      const dy = dx * (0.35 + Math.random() * 0.2);
+      /* night: meteors fall down-right; day: they rise up-left */
+      const daylight = root.getAttribute('data-theme') === 'light';
+      let startX = Math.random() * vw * 0.4 - 120;
+      let startY = Math.random() * vh * 0.35;
+      let dx = vw * (0.6 + Math.random() * 0.4);
+      let dy = dx * (0.35 + Math.random() * 0.2);
+      if (daylight) {
+        startX = vw - startX;
+        startY = vh - startY;
+        dx = -dx;
+        dy = -dy;
+      }
       const angle = (Math.atan2(dy, dx) * 180 / Math.PI).toFixed(1);
       document.body.appendChild(m);
       m.animate([
@@ -550,7 +591,62 @@
         .onfinish = () => m.remove();
     };
 
-    document.querySelector('.collab').addEventListener('click', shootStar);
+    let activeStorms = 0;
+    const meteorStorm = () => {
+      activeStorms += 1;
+      spark.classList.add('hide');
+      for (let i = 0; i < 101; i++) {
+        setTimeout(shootStar, i * 55 + Math.random() * 70);
+      }
+      setTimeout(() => {
+        activeStorms -= 1;
+        if (activeStorms === 0) {
+          placeSpark();
+          spark.classList.remove('hide');
+        }
+      }, 6800);
+    };
+
+    document.querySelector('.collab').addEventListener('click', meteorStorm);
+
+    /* twinkling spark: appears at a random spot each visit; clicking it
+       fires the shooting star, then it reappears somewhere new */
+    const spark = document.createElement('button');
+    spark.className = 'spark';
+    spark.type = 'button';
+    spark.setAttribute('aria-label', 'Launch a shooting star');
+    spark.title = 'Make a wish';
+    spark.textContent = '\u2726';
+    const placeSpark = () => {
+      const left = Math.random() < 0.5;
+      spark.style.left = (left ? 3 + Math.random() * 13 : 84 + Math.random() * 12) + '%';
+      spark.style.top = (8 + Math.random() * 76) + '%';
+    };
+    placeSpark();
+    document.body.appendChild(spark);
+    /* clicks 1-2: one shooting star; 3rd click: full meteor storm,
+       then the theme flips (dark <-> light) and the count resets */
+    let sparkClicks = 0;
+    spark.addEventListener('click', () => {
+      sparkClicks += 1;
+      if (sparkClicks >= 3) {
+        sparkClicks = 0;
+        meteorStorm(); /* keeps the spark hidden until the storm ends */
+        /* last meteor launches ~5.6s in and flies for 1.1s */
+        setTimeout(() => {
+          const next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+          applyTheme(next);
+          localStorage.setItem('theme', next);
+        }, 6700);
+      } else {
+        shootStar();
+        spark.classList.add('hide');
+        setTimeout(() => {
+          placeSpark();
+          spark.classList.remove('hide');
+        }, 900);
+      }
+    });
 
     const konami = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown',
                     'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
@@ -560,9 +656,7 @@
       ki = (k === konami[ki]) ? ki + 1 : (k === konami[0] ? 1 : 0);
       if (ki === konami.length) {
         ki = 0;
-        for (let i = 0; i < 101; i++) {
-          setTimeout(shootStar, i * 55 + Math.random() * 70);
-        }
+        meteorStorm();
       }
     });
   }
