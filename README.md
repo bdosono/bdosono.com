@@ -16,7 +16,7 @@
 ## Direction
 ### Purpose
 - **Objective**: To modernize my one-stop landing page with a dark-mode-first redesign.
-- **Outcome**: Website now live at <https://www.bdosono.com/>. This README.md file is an alliterative update to the [2016 version](https://github.com/bdosono/bdosono.com/blob/master/README-2016.md) I initially compiled a decade ago. 
+- **Outcome**: Website now live at <https://www.bdosono.com/>. This README.md file is an alliterative update to the [2016 version](https://github.com/bdosono/bdosono.com/blob/master/README.md) I initially compiled a decade ago. 
 - **Overview**: This site has undergone multiple iterations since grad school. See the visual progression on my [Behance](https://www.behance.net/gallery/38857453/Personal-Website) profile or the [Internet Archive](https://web.archive.org/web/*/https://www.bdosono.com/). This latest revamp trades the minimal light layout for something more atmospheric, and below I document the design decisions and auditing rigor behind it to inspire others to polish their own web presence.
 ### Theme
 - **Celestial Eclipse**: The entire visual identity orbits a single metaphor: a total eclipse. My circular portrait sits inside a golden ring with a layered corona glow that gently pulses, like a ring of light around a dark disc. The near-black background (`#0a0b0c`) is the night sky; a faint radial glow with a cool purple undertone provides the atmosphere.
@@ -40,15 +40,16 @@
 - **Living Background**: The ambient glow drifts toward the cursor with eased lag, so the page feels aware without being busy.
 - **Magnetic Links**: The role links (Speaker · Technologist · Advisor · Researcher) lean subtly toward the cursor and reveal hover preview cards describing each destination.
 - **Click-to-Copy**: Clicking "Email" copies my address to the clipboard with a gold "Copied ✓" confirmation, announced to assistive technology through an `aria-live` region. The address itself is assembled at runtime to deter scrapers.
+- **Wandering Star**: A gold speck sparkles somewhere new on every visit. Each click grants a shooting star; the third wish summons a meteor storm that flips the sky from night to day (and, three wishes later, back again).
 ### Surprises
 - **Golden Shimmer**: Clicking my name sweeps a champagne shine across the letters, implemented with an animated `background-clip: text` gradient, with padding math to keep descenders intact.
-- **Shooting Star**: Clicking "fun" delightfully launches a gold meteor arcing across the viewport, each with a randomized origin and trajectory.
+- **Hidden Storm**: Clicking "fun" (no underline, just a knowing cursor) unleashes the full 101-meteor storm for those who trust their instincts.
 - **Konami Storm**: Entering ↑ ↑ ↓ ↓ ← → ← → B A unleashes a shower of 101 meteors over five and a half seconds. Some traditions are worth honoring. 😉
 ## Diligence
 ### Accessibility
 - **Contrast**: Every text/background pair was verified programmatically against WCAG 2.1 with no eyeballing. The light-mode gold was specifically darkened from its decorative shade to reach AA for small text.
 - **Semantics**: One `h1`, a semantic list for roles, a true `<button>` for the theme toggle with `aria-pressed`, visible focus styles throughout, and `aria-label`s announcing which links open in new tabs.
-- **Reduced Motion**: `prefers-reduced-motion` disables the cursor glow, magnetic links, glow pulse, shimmer, and meteors entirely. Delight should be opt-out-able.
+- **Reduced Motion**: `prefers-reduced-motion` disables the cursor glow, magnetic links, glow pulse, shimmer, meteors, and wandering star entirely. Delight should be opt-out-able.
 ### Performance
 - **Audits**: The site scores a perfect **100/100 on both [Google PageSpeed Insights](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fwww.bdosono.com%2F) and [Pingdom](https://tools.pingdom.com/)**, which matches the ratings this site earned back in 2016, now with a theme toggle, cursor-reactive lighting, and a meteor storm along for the ride. Getting there meant chasing down every audit flag: render-blocking font requests, forced reflows, unused JavaScript, cache lifetimes, and image sizing.
 - **Zero external JavaScript**: Google's ~70 KB gtag.js library is replaced by a hand-rolled [minimal GA4 beacon](https://developers.google.com/analytics/devguides/collection/protocol/ga4) (~25 lines, inline) that sends pageviews directly to the Measurement endpoint, which is the spiritual successor to the minimal snippet approach I used in the Universal Analytics era.
